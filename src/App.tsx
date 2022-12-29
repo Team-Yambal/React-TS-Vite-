@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { Home } from './Home'
 import { About } from './About'
 import { About1 } from './About1'
+import { Counter } from './app/features/counter/Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />}>
           <Route path="1" element={<About1 />} />
         </Route>
+        <Route path="/counter" element={<Counter />} />
       </Routes>
     </div>
   )

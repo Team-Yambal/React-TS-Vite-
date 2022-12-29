@@ -5,6 +5,7 @@ export const Home =  () => {
     <div>
       Home
       <Link to="/about">about</Link>
+      <Link to="/counter">Counter (Redux & RTK)</Link>
     </div>
   )
 }
