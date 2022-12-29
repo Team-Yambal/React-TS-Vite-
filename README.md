@@ -1,1 +1,2 @@
-git remote add origin https://github.com/Team-Yambal/React-TS-Vite-.git
+``pnpm create {PROJECT NAME } --template react-ts``
+``pnpm add react-router-dom``
