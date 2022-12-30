@@ -1,11 +1,16 @@
 import { configureStore } from '@reduxjs/toolkit'
-import counterReducer from './features/counter/counterSlice'
+import { counterSlice } from '../features/counter/counterSlice'
+import { weatherQueries } from './weatherQueries'
 
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    [counterSlice.name]: counterSlice.reducer,
+    [weatherQueries.reducerPath]: weatherQueries.reducer
   },
+  middleware: getDefaultMiddleware =>
+    getDefaultMiddleware()
+      .concat(weatherQueries.middleware),
 })
 
 // Infer the `RootState` and `AppDispatch` types from the store itself
