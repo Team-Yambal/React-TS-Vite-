@@ -36,7 +36,6 @@ specifiers:
   vite: ^4.0.0
 
 dependencies:
-  '@mdx-js/react': 2.2.1_react@18.2.0
   '@reduxjs/toolkit': 1.9.1_k4ae6lp43ej6mezo3ztvx6pykq
   '@xstyled/styled-components': 3.7.0_styled-components@5.3.6
   qs: 6.11.0
@@ -48,6 +47,7 @@ dependencies:
 
 devDependencies:
   '@aspida/fetch': 1.11.0
+  '@mdx-js/react': 2.2.1_react@18.2.0
   '@storybook/addon-actions': 6.5.15_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-backgrounds': 6.5.15_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-docs': 6.5.15_o4scbtliisanygemawej7x2d6i
@@ -2924,7 +2924,7 @@ packages:
       '@types/mdx': 2.0.3
       '@types/react': 18.0.26
       react: 18.2.0
-    dev: false
+    dev: true
 
   /@mdx-js/util/1.6.22:
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
@@ -4552,7 +4552,7 @@ packages:
 
   /@types/mdx/2.0.3:
     resolution: {integrity: sha512-IgHxcT3RC8LzFLhKwP3gbMPeaK7BM9eBH46OdapPA7yvuIUJ8H6zHZV53J8hGZcTSnt95jANt+rTBNUUc22ACQ==}
-    dev: false
+    dev: true
 
   /@types/minimatch/5.1.2:
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
