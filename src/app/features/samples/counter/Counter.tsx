@@ -1,5 +1,6 @@
 import React from 'react'
-import type { RootState } from '../../store/store'
+import { x } from '@xstyled/styled-components'
+import type { RootState } from '../../../store/store'
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment } from './counterSlice'
 
@@ -8,7 +9,9 @@ export function Counter() {
   const dispatch = useDispatch()
 
   return (
-    <div>
+    <x.div>
+      <x.h2>Counter</x.h2>
+      <x.p>This is an example implementation of the React Tool kit</x.p>
       <div>
         <button
           aria-label="Increment value"
@@ -24,6 +27,6 @@ export function Counter() {
           Decrement
         </button>
       </div>
-    </div>
+    </x.div>
   )
 }

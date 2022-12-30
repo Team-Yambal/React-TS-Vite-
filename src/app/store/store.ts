@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import { counterSlice } from '../features/counter/counterSlice'
+import { counterSlice } from '../features/samples/counter/counterSlice'
 import { weatherQueries } from './weatherQueries'
 
 
